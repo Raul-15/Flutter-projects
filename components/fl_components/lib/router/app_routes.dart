@@ -29,11 +29,38 @@ class AppRoutes {
         route: 'Card',
         name: 'Tarjetas - Cards',
         screen: const CardScreen(),
-        icon: Icons.credit_card)
+        icon: Icons.credit_card),
+    MenuOption(
+        route: 'Avatar',
+        name: 'Circle avatar',
+        screen: const AvatarScreen(),
+        icon: Icons.supervised_user_circle_outlined),
+    MenuOption(
+        route: 'Animated',
+        name: 'Animated Container',
+        screen: const AnimatedScreen(),
+        icon: Icons.play_circle_outline_rounded),
+    MenuOption(
+        route: 'Inputs',
+        name: 'Text Inputs',
+        screen: const InputsScreen(),
+        icon: Icons.input_rounded),
+    MenuOption(
+        route: 'Slider',
+        name: 'Slider and Checks',
+        screen: const SliderScreen(),
+        icon: Icons.slideshow_sharp),
+    MenuOption(
+        route: 'ListViewBuilder',
+        name: 'Infinte scroll and pull to refresh',
+        screen: const ListViewBuilderScreen(),
+        icon: Icons.build_circle_outlined)
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
     Map<String, Widget Function(BuildContext)> appRoutes = {};
+    appRoutes.addAll({'home': (BuildContext context) => const HomeScreen()});
+
     for (final option in menuOptions) {
       appRoutes.addAll({option.route: (BuildContext context) => option.screen});
     }
