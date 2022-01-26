@@ -1,0 +1,12 @@
+En el card de movie.title
+* Si esta vacia el appbar no es interactivo pero si se llena de cosas se vuelve interactiva
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=af996cb16662fbead1c1e55e4b368e13&page=1
+https://api.themoviedb.org/3/movie/popular?api_key=af996cb16662fbead1c1e55e4b368e13&page=1
+
+paquetes descargados de pub.dev:
+- http 
+- provodier : gestores de estado
+
+
+TERMINE EL VIDEO 131
