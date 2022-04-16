@@ -1,0 +1,4 @@
+En el pubspec.yaml 
+debe estar mas de 2.12(  sdk: ">=2.15.1 <3.0.0") Para el sound null safety
+
+VIDEO 147   MINUTO 06:28

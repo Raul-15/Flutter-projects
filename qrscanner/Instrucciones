@@ -1,0 +1,25 @@
+- gestor de estados
+
+    - provider 4.3.2+2
+    - path_provider: ^2.0.9 : Ayuda a saber donde se encuentra el archivo en las bases de datos sqflite
+    - sqflite: ^2.0.2
+
+
+    problema en el 163 no se cambia de texto en la pantalla
+
+    ME QUEDE EN EL VIDEO 167 CARGANDO LA APP AL DISPOSITIVO
+    MUCHAS LETRAS SALEN
+    
+
+
+
+
+    LA RUTA NO SE ENCUENTRA: /data/user/0/com.example.qrscanner/app_flutter/ScansDB.db
+        Se utilizo home_page, db_provider
+
+        POR ENDE NO PUEDO VER LA DATABASE
+
+        ----------------------------
+
+    ME SALTO AL VIDEO 184
+    
